@@ -4,10 +4,12 @@
 #Introduction
 
 Question 4 of the PesaPal application
-***
+
+
+
 #Problem
 Write an application which, when given a web page will download the text on it and output a sorted list of the unique words on the page, with counts of the occurrences.
-***
+
 
 ##Requirements
 ###imports
@@ -15,11 +17,11 @@ Write an application which, when given a web page will download the text on it a
 2. sys
 3. beautifulsoup4
 4. re
-***
+
 
 ##Usage
 Usage: ./webscrapper url string
-***
+
 
 ##Solution
 Get request the given url and parse the response from bytes to text.
